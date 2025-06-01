@@ -1,17 +1,11 @@
-# third_project
+# News App Testing API News
 
-A new Flutter project.
+Flutter project using MVC model to build an app testing API for News depends on some dependencies like http, web-view flutter, and build simple UI aiming for future updates.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+![WhatsApp Image 2025-06-01 at 13 37 56_b8e21229](https://github.com/user-attachments/assets/d87bd4c1-1836-4f34-bb16-dd97017ee0ee) 
+![WhatsApp Image 2025-06-01 at 13 37 56_a18aa3ee](https://github.com/user-attachments/assets/0c539101-36d2-4bf0-b1a0-0d3537e474bd)
+![WhatsApp Image 2025-06-01 at 13 37 57_75184aca](https://github.com/user-attachments/assets/9f79050a-faf5-45bd-bf61-77ffbff1d481)
+https://github.com/user-attachments/assets/c6cc62db-e356-4eb0-bd95-6cdc001820c2
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# News-App-with-API

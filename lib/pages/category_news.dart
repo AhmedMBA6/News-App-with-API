@@ -52,10 +52,11 @@ class _CategoryNewsState extends State<CategoryNews> {
               itemCount: categories.length,
               itemBuilder: (context, index) {
                 return ShowCategory(
-                    description: categories[index].description,
-                    title: categories[index].title,
-                    image: categories[index].urlToImage,
-                    url: categories[index].url,);
+                  description: categories[index].description,
+                  title: categories[index].title,
+                  image: categories[index].urlToImage,
+                  url: categories[index].url,
+                );
               }),
         ));
   }
@@ -77,38 +78,36 @@ class ShowCategory extends StatelessWidget {
         Navigator.push(context,
             MaterialPageRoute(builder: (context) => ArticleView(blogUrl: url)));
       },
-      child: Container(
-        child: Column(
-          children: [
-            ClipRRect(
-              borderRadius: BorderRadius.circular(10),
-              child: CachedNetworkImage(
-                imageUrl: image,
-                width: MediaQuery.of(context).size.width,
-                height: 200,
-                fit: BoxFit.cover,
-              ),
+      child: Column(
+        children: [
+          ClipRRect(
+            borderRadius: BorderRadius.circular(10),
+            child: CachedNetworkImage(
+              imageUrl: image,
+              width: MediaQuery.of(context).size.width,
+              height: 200,
+              fit: BoxFit.cover,
             ),
-            const SizedBox(
-              height: 5,
-            ),
-            Text(
-              title,
-              maxLines: 2,
-              style: const TextStyle(
-                  color: Colors.black,
-                  fontSize: 18.0,
-                  fontWeight: FontWeight.bold),
-            ),
-            Text(
-              description,
-              maxLines: 3,
-            ),
-            const SizedBox(
-              height: 20,
-            )
-          ],
-        ),
+          ),
+          const SizedBox(
+            height: 5,
+          ),
+          Text(
+            title,
+            maxLines: 2,
+            style: const TextStyle(
+                color: Colors.black,
+                fontSize: 18.0,
+                fontWeight: FontWeight.bold),
+          ),
+          Text(
+            description,
+            maxLines: 3,
+          ),
+          const SizedBox(
+            height: 20,
+          )
+        ],
       ),
     );
   }
